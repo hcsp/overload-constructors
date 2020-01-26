@@ -34,7 +34,6 @@ public class Cat {
      * 创建一只指定名字、年龄和萌属性的猫
      */
     public Cat(String name, int age, boolean cute) {
-        new Cat("mimi");
         this.name = name;
         this.age = age;
         this.cute = cute;
