@@ -26,8 +26,4 @@ public class Cat {
         this.age = age;
         this.cute = cute;
     }
-
-    public static void main(String[] args) {
-        Cat cat = new Cat("咪咪");
-    }
 }
