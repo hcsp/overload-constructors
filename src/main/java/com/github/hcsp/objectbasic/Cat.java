@@ -27,7 +27,7 @@ public class Cat {
      */
     public Cat(String name, int age) {
         // 请在这里使用this()调用其他的构造器
-        this(name,age,true);
+        this(name, age, true);
     }
 
     /**
