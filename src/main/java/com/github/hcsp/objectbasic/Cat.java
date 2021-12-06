@@ -17,9 +17,12 @@ public class Cat {
     /**
      * 创建一只指定名字的猫，age的默认值是1，cute的默认值是true
      */
-    public Cat(String name) {
+    public Cat(){
+        this("喵喵");
+    }
+    public Cat(String   name) {
         // 请在这里使用this()调用其他的构造器
-        this("喵喵喵", 10);
+        this(name, 1);
     }
 
     /**
@@ -27,7 +30,7 @@ public class Cat {
      */
     public Cat(String name, int age) {
         // 请在这里使用this()调用其他的构造器
-        this("喵喵喵", 5, true);
+        this(name, age, true);
     }
 
     /**
