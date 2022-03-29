@@ -41,9 +41,9 @@ public class Cat {
     }
 
     public Cat() {
-        int age=1;
-        String name="咪咪";
-        boolean cute=true;
+        int age = 1;
+        String name = "咪咪";
+        boolean cute = true;
     }
 
     public static void main(String[] args) {
