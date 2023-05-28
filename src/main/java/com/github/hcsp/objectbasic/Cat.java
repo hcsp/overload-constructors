@@ -11,6 +11,8 @@ public class Cat {
     /** 创建一只指定名字的猫，age的默认值是1，cute的默认值是true */
     public Cat(String name) {
        this.name = name;
+       this.cute = true;
+       this.age  = 1;
         // 请在这里使用this()调用其他的构造器
     }
 
@@ -18,6 +20,7 @@ public class Cat {
     public Cat(String name, int age) {
         this.name = name;
         this.age = age;
+        this.cute = true;
         // 请在这里使用this()调用其他的构造器
     }
 
